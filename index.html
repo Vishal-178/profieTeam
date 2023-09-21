@@ -1,173 +1,218 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
 
-html {
-  box-sizing: border-box;
-}
+      html {
+        box-sizing: border-box;
+      }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+      }
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+        overflow: hidden;
+      }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
 
-.container {
-  padding: 0 16px;
-}
+      .container {
+        padding: 0 16px;
+      }
 
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 
-.title {
-  color: grey;
-}
+      .title {
+        color: grey;
+      }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
 
-.button:hover {
-  background-color: #555;
-}
+      .button:hover {
+        background-color: #555;
+      }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
-</head>
-<body>
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-section">
+      <h1>Optimite Tech Headquarter</h1>
+      <p>
+        We're the team that turns caffeine into code, making the web a fun
+        place, one bug at a time!
+      </p>
+      <p>
+        We're the mad scientists of the web, mixing code and chaos to create
+        unforgettable online experiences. Enter our realm of digital wonders!
+      </p>
+      <p>
+        We're the mysterious minds lurking in the code's shadows, turning bugs
+        into features and errors into existential crises. Don't worry; our humor
+        is as black as our terminal backgrounds.
+      </p>
+    </div>
 
-<div class="about-section">
-  <h1>Optimite Tech Headquarter</h1>
-  <p>We're the team that turns caffeine into code, making the web a fun place, one bug at a time!</p>
-  <p>We're the mad scientists of the web, mixing code and chaos to create unforgettable online experiences. Enter our realm of digital wonders!</p>
-  <p>We're the mysterious minds lurking in the code's shadows, turning bugs into features and errors into existential crises. Don't worry; our humor is as black as our terminal backgrounds.</p>
-</div>
-
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-    <!-- ravi -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/ravi.jpg" alt="ravi"  width="400px" height="400px">
-      <div class="container">
-        <h2>Ravi Kumar</h2>
-        <!-- <p class="title">CEO & Founder</p> -->
-        <p>As discussed!</p>
-        <!-- <p>jane@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
+    <h2 style="text-align: center">Our Team</h2>
+    <div class="row">
+      <!-- ravi -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/ravi.jpg?raw=true"
+            alt="ravi"
+            width="auto"
+            height="400px"
+          />
+          <div class="container">
+            <h2>Ravi Kumar</h2>
+            <!-- <p class="title">CEO & Founder</p> -->
+            <p>As discussed!</p>
+            <!-- <p>jane@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
+      </div>
+      <!-- rajat -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/arya.jpg?raw=true"
+            alt="arya"
+            width="auto"
+            height="400px"
+          />
+          <div class="container">
+            <h2>Rajat Arya</h2>
+            <!-- <p class="title">Art Director</p> -->
+            <p>Frontend Developer.</p>
+            <!-- <p>mike@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
+      </div>
+      <!-- deep -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/deep.jpg?raw=true"
+            alt="deep"
+            width="auto"
+            height="400px"
+          />
+          <div class="container">
+            <h2>Deepak Sharma</h2>
+            <!-- <p class="title">Designer</p> -->
+            <p>Frontend Developer</p>
+            <!-- <p>john@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
+      </div>
+      <!-- vishal -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/vishal.jpeg?raw=true"
+            alt="vishal"
+            width="auto"
+            height="400px"
+          />
+          <div class="container">
+            <h2>Vishal Singh</h2>
+            <!-- <p class="title">Designer</p> -->
+            <p>A Programmer Interested In Space And Science.</p>
+            <!-- <p>john@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
+      </div>
+      <!-- nik -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/nik.jpg?raw=true"
+            alt="niketan"
+            width="auto"
+            height="382px"
+          />
+          <div class="container">
+            <h2>Niketan Wadaskar</h2>
+            <!-- <p class="title">Designer</p> -->
+            <p>
+              Hey there, it's Niketan, your friendly MERN magician turning web
+              development into a comedy show, one bug at a time!
+            </p>
+            <!-- <p>john@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
+      </div>
+      <!-- rajat -->
+      <div class="column">
+        <div class="card">
+          <img
+            src="https://github.com/Vishal-178/profieTeam/blob/main/photos/rajat.jpg?raw=true"
+            alt="rajat"
+            width="auto"
+            height="400px"
+          />
+          <div class="container">
+            <h2>Rajat Khobragade</h2>
+            <!-- <p class="title">Designer</p> -->
+            <p>
+              Backend development is like the hidden hero of the digital world.
+            </p>
+            <!-- <p>john@example.com</p> -->
+            <!-- <p><button class="button">Contact</button></p> -->
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-<!-- rajat -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/arya.jpg" alt="arya" width="400px" height="400px">
-      <div class="container">
-        <h2>Rajat Arya</h2>
-        <!-- <p class="title">Art Director</p> -->
-        <p>Frontend Developer.</p>
-        <!-- <p>mike@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
-      </div>
-    </div>
-  </div>
-  <!-- deep -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/deep.jpg" alt="deep" width="400px" height="400px">
-      <div class="container">
-        <h2>Deepak Sharma</h2>
-        <!-- <p class="title">Designer</p> -->
-        <p>Frontend Developer</p>
-        <!-- <p>john@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
-      </div>
-    </div>
-  </div>
-  <!-- vishal -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/vishal.jpeg" alt="vishal" width="400px" height="400px">
-      <div class="container">
-        <h2>Vishal Singh</h2>
-        <!-- <p class="title">Designer</p> -->
-        <p>A Programmer Interested In Space And Science.</p>
-        <!-- <p>john@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
-      </div>
-    </div>
-  </div>
-  <!-- nik -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/nik.jpg" alt="niketan" width="400px" height="400px">
-      <div class="container">
-        <h2>Niketan Wadaskar</h2>
-        <!-- <p class="title">Designer</p> -->
-        <p>Hey there, it's Niketan, your friendly MERN magician turning web development into a comedy show, one bug at a time!</p>
-        <!-- <p>john@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
-      </div>
-    </div>
-  </div>
-  <!-- rajat -->
-  <div class="column">
-    <div class="card">
-      <img src="/profieTeam/photos/rajat.jpg" alt="rajat" width="400px" height="400px">
-      <div class="container">
-        <h2>Rajat Khobragade</h2>
-        <!-- <p class="title">Designer</p> -->
-        <p>Backend development is like the hidden hero of the digital world.</p>
-        <!-- <p>john@example.com</p> -->
-        <!-- <p><button class="button">Contact</button></p> -->
-      </div>
-    </div>
-  </div>
-
-  
-</div>
-
-</body>
+  </body>
 </html>
